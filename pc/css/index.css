@@ -1,0 +1,220 @@
+@charset 'utf-8';
+body {
+    width: 100%;
+    *cursor: default;
+    overflow: hidden;
+}
+#pageContain {
+    overflow: hidden;
+}
+.page {
+    display: none;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.contain {
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: relative;
+    z-index: 0;
+}
+.current .contain,.slide .contain {
+    display: block;
+}
+.current {
+    display: block;
+    z-index: 1;
+}
+.slide {
+    display: block;
+    z-index: 2;
+}
+.swipe {
+    display: block;
+    z-index: 3;
+    transition-duration: 0ms !important;
+    -webkit-transition-duration: 0ms !important;
+}
+.page1 {
+    background: url(../img/bg_1.jpg) 50% 50% no-repeat;
+    background-size: cover;
+    -ms-behavior: url(css/backgroundsize.min.htc);
+    behavior: url(css/backgroundsize.min.htc);
+}
+.page2 {
+    background: url(../img/bg_2.jpg) 50% 50% no-repeat;
+    background-size: cover;
+    -ms-behavior: url(css/backgroundsize.min.htc);
+    behavior: url(css/backgroundsize.min.htc);
+}
+.page3 {
+    background: url(../img/bg_3.jpg) 50% 50% no-repeat;
+    background-size: cover;
+    -ms-behavior: url(css/backgroundsize.min.htc);
+    behavior: url(css/backgroundsize.min.htc);
+}
+.page4 {
+    background: url(../img/bg_4.jpg) 50% 50% no-repeat;
+    background-size: cover;
+    -ms-behavior: url(css/backgroundsize.min.htc);
+    behavior: url(css/backgroundsize.min.htc);
+}
+.page5 {
+    background: url(../img/bg_5.jpg) 50% 50% no-repeat;
+    background-size: cover;
+    -ms-behavior: url(css/backgroundsize.min.htc);
+    behavior: url(css/backgroundsize.min.htc);
+}
+#navBar {
+    z-index: 3;
+    position: fixed;
+    left: 15%;
+    right: 0;
+    bottom: 10%;
+    text-align: center;
+}
+#navBar .active {
+    background: url(../img/index_nav_icon.png) 50% 50% no-repeat;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    margin: 3px 10px 3px 0;
+}
+#navBar li {
+    display: inline-block;
+    cursor: pointer;
+    margin: 5px 10px 5px 0;
+    transition: all .2s ease;
+    border-radius: 50%;
+    line-height: 30px;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    background: rgba(255,255,255,0.6);
+}
+
+.bg-1-1{
+    display: block;
+    width: 20%;
+    height: auto;
+    position: absolute;
+    left: 20%;
+    top: 19%;
+}
+.bg-1-2{
+    display: block;
+    width: 15%;
+    height: auto;
+    position: absolute;
+    left: 34%;
+    top: 48%;
+}
+
+.bg-2-1{
+    display: block;
+    width: 11.5%;
+    height: auto;
+    position: absolute;
+    left: 21.5%;
+    top: 28%;
+}
+
+.bg-2-2{
+    display: block;
+    width: 15%;
+    height: auto;
+    position: absolute;
+    right: 6%;
+    bottom: 7%;
+}
+
+.bg-3-1{
+    display: block;
+    width: 23%;
+    height: auto;
+    position: absolute;
+    left: 35%;
+    top: 12%;
+}
+.bg-3-2{
+    display: block;
+    width: 12%;
+    height: auto;
+    position: absolute;
+    right: 10.5%;
+    bottom: 28.5%;
+}
+.bg-3-3{
+    display: block;
+    width: 15.7%;
+    height: auto;
+    position: absolute;
+    left: 23%;
+    bottom: 22.5%;
+}
+
+.bg-4-1{
+    display: block;
+    width: 20%;
+    height: auto;
+    position: absolute;
+    left: 25.3%;
+    top: 17%;
+}
+.bg-4-2{
+    display: block;
+    width: 15.3%;
+    height: auto;
+    position: absolute;
+    left: 42.5%;
+    bottom: 21.8%;
+}
+.bg-4-3{
+    display: block;
+    width: 19.3%;
+    height: auto;
+    position: absolute;
+    right: 8%;
+    top: 7.5%;
+}
+.bg-5-1{
+    display: block;
+    width: 17.5%;
+    height: auto;
+    position: absolute;
+    left: 24.5%;
+    top: 21.2%;
+}
+.bg-5-2{
+    display: block;
+    width: 14.4%;
+    height: auto;
+    position: absolute;
+    right: 15%;
+    bottom: 16%;
+}
+.bg-5-3{
+    display: block;
+    width: 14.3%;
+    height: auto;
+    position: absolute;
+    right: 4.5%;
+    top: 8%;
+}
+
+.index-footer{
+    position: fixed!important;
+    bottom: 0;
+    left: 15%;
+    margin-left: 0!important;
+    z-index: 999;
+    width: 85%!important;
+}
+.index-footer .copyright{
+    padding: 20px;
+}

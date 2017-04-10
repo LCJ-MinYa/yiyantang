@@ -1,0 +1,246 @@
+@charset 'utf-8';
+header#topNav{
+	background: #1564a5;
+}
+header#topNav .active{
+	background: #125288;
+}
+#newsPage{
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	margin-top: 4.25rem;
+}
+.company-box{
+	width: 100%;
+	height: 13.6rem;
+	background: url(../img/news/news_bg.jpg) no-repeat 50% 50% / cover;
+	position: relative;
+}
+.left-box-bg{
+	width: 3.375rem;
+	height: 3.925rem;
+	background: url(../img/news/news_1.png) no-repeat 50% 50% / cover;
+	position: absolute;
+	margin: 5.75rem 0 0 10%;
+}
+.left-box{
+	width: 100%;
+	overflow: hidden;
+	position: absolute;
+	top: 50%;
+	margin-top: -1.3rem;
+}
+.left-box span{
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 0.8rem;
+	line-height: 0.8rem;
+	font-size: 0.6rem;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+}
+.left-box a{
+	display: block;
+	width: 60%;
+	font-size: 0.4rem;
+	padding: 1px;
+	text-align: center;
+	border: 1px solid #f1f1f1;
+	color: #fff;
+	margin: 0.1rem auto;
+}
+
+.right-box-wrap{
+	position: absolute;
+	margin: 5.75rem 20% 0 35%;
+}
+.right-box{
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	font-size: 0.4rem;
+	color: #333;
+}
+.right-box h1{
+	font-weight: bold;
+}
+.right-box p{
+	display: box;
+	display: -moz-box;
+	display: -webkit-box;
+	text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-indent: 0.5rem;
+    margin-top: 0.2rem;
+}
+.right-box span{
+    display: block;
+    text-align: right;
+    width: 100%;
+    margin-top: 0.2rem;
+}
+.right-box a{
+	display: inline-block;
+	border: 1px solid red;
+	color: red;
+	font-size: 0.4rem;
+	padding: 1px 0.1rem;
+}
+
+.industry-box{
+	width: 100%;
+	height: 10.575rem;
+	background: url(../img/news/news_bg_1.jpg) no-repeat 50% 50% / cover;
+	position: relative;
+}
+.industry-box .left-box-bg{
+	right: 0;
+	margin:3.325rem 10% 3.325rem 0;
+	background: url(../img/news/news_2.png) no-repeat 50% 50% / cover;
+}
+.industry-box .right-box-wrap{
+	margin: 3.325rem 35% 3.325rem 10%;
+}
+.industry-box .right-box-wrap span{
+	text-align: left;
+}
+
+
+.company-bg{
+	position: relative;
+	width: 100%;
+	height: 6.9rem;
+	background: url(../img/news/company_1.jpg) no-repeat 50% 50% / cover;
+	margin-bottom: 2rem;
+}
+.company-bg i{
+	position: absolute;
+	right: 10%;
+	width: 3rem;
+	height: 3.5rem;
+	display: block;
+	bottom: -1.75rem;
+	background: url(../img/news/company_text-bg.png) no-repeat 50% 50% / cover;
+	text-align: center;
+}
+.company-bg i span{
+	font-size: 0.7rem;
+	color: #fff;
+	font-weight: bold;
+	display: block;
+	height: 2rem;
+	margin: 0.75rem 0;
+	letter-spacing: 0.1rem;
+	text-align: center;
+}
+.company-item-1{
+	margin: 0 5% 1rem 5%;
+	width: 90%;
+}
+.company-item-1 h1{
+	font-size: 0.6rem;
+}
+.company-item-1 h1 i{
+	display: inline-block;
+	width: 0.6rem;
+	height: 0.6rem;
+	background: #1564a5;
+	vertical-align: middle;
+	margin-bottom: 0.1rem;
+	margin-right: 0.2rem;
+}
+.company-content{
+	margin: 0.5rem 0;
+	width: 100%;
+	background: #1564a5;
+	overflow: hidden;
+}
+.company-content img{
+	display: block;
+	width: 100%;
+	height: auto;
+	margin-bottom: 0.5rem;
+}
+.company-content p{
+	position: relative;
+	font-size: 0.6rem;
+	color: #fff;
+	padding-left: 0.5rem;
+	line-height: 150%;
+}
+.company-content span{
+	width: 30%;
+	margin: 1rem 35%;
+	position: relative;
+	display: block;
+	text-align: center;
+	font-size: 0.6rem;
+	color: #fff;
+	padding: 0.1rem 0.2rem;
+	border: 1px solid #fff;
+}
+.company-item-list{
+	width: 100%;
+	overflow: hidden;
+}
+.first-list{
+	margin-top: 0.5rem;
+}
+.company-item-list p{
+	width: 80%;
+	font-size: 0.5rem;
+	float: left;
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 150%;
+}
+.company-item-list p:last-child{
+	float: right;
+	width: 20%;
+	text-align: right;
+}
+.next-page-box{
+	display: block;
+	text-align: center;
+	margin-bottom: 1rem;
+	width: 100%;
+}
+.next-page-box li{
+	font-size: 0.5rem;
+	color: #fff;
+	display: inline-block;
+	width: 1rem;
+	height: 1rem;
+	line-height: 1rem;
+	text-align: center;
+	background: #1564a5;
+	margin-right: 0.2rem;
+}
+.industry-color{
+	background: #fec502!important;
+}
+.industry-next-page-box li{
+	background: #fec502!important;
+}
+
+.details-color{
+	background: #fff!important;
+	font-size: 0.6rem;
+}
+.details-color p{
+	color: #333;
+	text-indent: 0.5rem;
+}
+
+.detail-time{
+	float: right;
+	font-size: 0.6rem;
+	color: #333;
+	margin: 1rem 0;
+}

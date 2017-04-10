@@ -1,0 +1,299 @@
+@charset 'utf-8';
+/*----------------------about------------------------*/
+#leftNav{
+	background: #f66500;
+}
+#leftNav ul li.active{
+    background: #f66f0e;
+}
+#leftNav ul li{
+	border-top: 1px solid #f67615;
+}
+.last-border{
+    border-bottom: 1px solid #f67615;
+}
+
+html,body{
+	height: 100%;
+}
+#aboutPage{
+	width: 100%;
+	height: 100%;
+}
+.about-bg{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+	background: url(../img/about_bg.jpg) 50% 50% no-repeat;
+	background-size: cover;
+	-ms-behavior: url(css/backgroundsize.min.htc);
+	behavior: url(css/backgroundsize.min.htc);
+}
+.about-bg ul{
+	margin-left: 15%;
+	width: 85%;
+	height: 100%;
+	overflow: hidden;
+}
+.about-bg ul li{
+	width: 25%;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+	margin-top: -5%;
+	border-style: none;
+	cursor:pointer;
+  	-webkit-animation: aboutBottom .5s;
+  	animation: aboutBottom .5s;
+  	-webkit-animation-fill-mode: forwards;
+  	animation-fill-mode: forwards;
+}
+.about-bg ul li:hover{
+  	-webkit-animation: aboutTop .5s;
+  	animation: aboutTop .5s;
+  	-webkit-animation-fill-mode: forwards;
+  	animation-fill-mode: forwards;
+}
+@-webkit-keyframes aboutTop {
+  from {
+  	margin-top: -5%;
+  }
+
+  to {
+    margin-top: -10%;
+  }
+}
+
+@keyframes aboutTop {
+  from {
+    margin-top: -5%;
+  }
+
+  to {
+    margin-top: -10%;
+  }
+}
+@-webkit-keyframes aboutBottom {
+  from {
+  	margin-top: -10%;
+  }
+
+  to {
+    margin-top: -5%;
+  }
+}
+
+@keyframes aboutBottom {
+  from {
+    margin-top: -10%;
+  }
+
+  to {
+    margin-top: -5%;
+  }
+}
+
+.item-1{
+	background: url(../img/about_item_1.png) no-repeat;
+	background-size: 100% auto;
+	-ms-behavior: url(css/backgroundsize.min.htc);
+	behavior: url(css/backgroundsize.min.htc);
+}
+.item-2{
+	background: url(../img/about_item_2.png) no-repeat;
+	background-size: 100% auto;
+	-ms-behavior: url(css/backgroundsize.min.htc);
+	behavior: url(css/backgroundsize.min.htc);
+}
+.item-3{
+	background: url(../img/about_item_3.png) no-repeat;
+	background-size: 100% auto;
+	-ms-behavior: url(css/backgroundsize.min.htc);
+	behavior: url(css/backgroundsize.min.htc);
+}
+.item-4{
+	background: url(../img/about_item_4.png) no-repeat;
+	background-size: 100% auto;
+	-ms-behavior: url(css/backgroundsize.min.htc);
+	behavior: url(css/backgroundsize.min.htc);
+}
+
+/*----------------------about us------------------------*/
+#aboutUsPage{
+	margin-left: 15%;
+	width: 85%;
+	overflow: hidden;
+	position: relative;
+}
+.about-us-bg{
+	position: relative;
+	width: 100%;
+	height: 500px;
+	background: url(../img/about_us_bg.jpg) 50% 50% no-repeat;
+	background-size: cover;
+	-ms-behavior: url(css/backgroundsize.min.htc);
+	behavior: url(css/backgroundsize.min.htc);
+}
+.about-us-bg i{
+	position: absolute;
+	right: 10%;
+	bottom: -119px;
+	display: block;
+	width: 204px;
+	height: 238px;
+	background: url(../img/about_title_bg.png) 50% 50% no-repeat;
+	text-align: center;
+}
+.about-us-bg i span{
+	display: block;
+	height: 100px;
+	font-size: 36px;
+	font-weight: bold;
+	color: #fff;
+	letter-spacing: 2px;
+	margin: 69px 0;
+}
+
+.about-us-content{
+	padding: 150px 100px 100px 100px;
+	width: auto;
+	position: relative;
+	overflow: hidden;
+}
+.text-box{
+	position: relative;
+	width: 45%;
+	margin-right: 10%;
+	overflow: hidden;
+	float: left;
+}
+.img-box{
+	position: relative;
+	width: 45%;
+	overflow: hidden;
+}
+.text-box h1{
+	border-left: 5px solid #f66500;
+	padding-left: 10px;
+	font-size: 18px;
+}
+.text-box h1 span{
+	font-size: 18px;
+	font-weight: bold;
+	padding-left: 10px;
+}
+.text-box h2{
+	padding: 40px 0 20px;
+	font-size: 14px;
+	font-weight: bold;
+}
+.text-box p{
+	line-height: 30px;
+	text-indent:24px;
+}
+.img-box img{
+	display: block;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+
+/*----------------------about histroy------------------------*/
+.about-histroy-bg{
+	background: url(../img/about_histroy_bg.jpg) 50% 50% no-repeat;
+	background-size: cover;
+	-ms-behavior: url(css/backgroundsize.min.htc);
+	behavior: url(css/backgroundsize.min.htc);
+}
+.histroy-title{
+	border-left: 5px solid #ff6650;
+	padding-left: 10px;
+}
+.histroy-title p{
+	font-size: 18px;
+}
+.title-bold{
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+.about-us-content ul{
+	margin: 110px 0px 50px 0;
+	border-left: 1px solid #ff6650;
+}
+.about-us-content ul li{
+	font-size: 15px;
+	height: 20px;
+	line-height: 20px;
+	padding-bottom: 60px;
+	position: relative;
+	margin-left: -7px;
+}
+.about-us-content ul li span{
+	font-size: 15px;
+	height: 20px;
+	line-height: 20px;
+	display: block;
+}
+.histroy-icon{
+	display: block;
+	float: left;
+	width: 13px;
+	height: 15px;
+	margin-top:2px;
+	background: url(../img/histroy_icon.png) no-repeat;
+}
+.time-bold{
+	float: left;
+	font-weight: bold;
+	padding: 0px 40px 0 20px;
+}
+.text-left-pad{
+	padding-left: 110px;
+}
+
+/*----------------------about honor------------------------*/
+.about-honor-bg{
+	background: url(../img/about_honor_bg.jpg) 50% 50% no-repeat;
+	background-size: cover;
+	-ms-behavior: url(css/backgroundsize.min.htc);
+	behavior: url(css/backgroundsize.min.htc);
+}
+.honor-img-box{
+	margin: 90px 0;
+}
+.honor-item-1{
+	padding: 10px;
+	border: 1px solid #d9dad5;
+	text-align: center;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 65px;
+}
+.honor-item-1 img{
+	display: block;
+}
+.honor-item-1 span{
+	height: 80px;
+	line-height: 80px;
+	font-size: 16px;
+}
+.honor-item-text{
+	line-height: 40px!important;
+}
+
+/*----------------------about advantage------------------------*/
+.about-advantage-bg{
+	background: url(../img/about_advantage_bg.jpg) 50% 50% no-repeat;
+	background-size: cover;
+	-ms-behavior: url(css/backgroundsize.min.htc);
+	behavior: url(css/backgroundsize.min.htc);
+}
+.advantage-img-box{
+	width: 100%;
+	margin-bottom: 150px;
+}
+.advantage-img-box img{
+	width: 100%;
+	height: auto;
+}

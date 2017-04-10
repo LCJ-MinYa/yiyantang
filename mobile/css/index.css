@@ -1,0 +1,195 @@
+@charset 'utf-8';
+html,body {
+    width: 100%;
+    height: 100%;
+    *cursor: default;
+    overflow: hidden;
+}
+#indexPage {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.page {
+    display: none;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.contain {
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: relative;
+    z-index: 0;
+}
+.current .contain,.slide .contain {
+    display: block;
+}
+.current {
+    display: block;
+    z-index: 1;
+}
+.slide {
+    display: block;
+    z-index: 2;
+}
+.swipe {
+    display: block;
+    z-index: 3;
+    transition-duration: 0ms !important;
+    -webkit-transition-duration: 0ms !important;
+}
+.page1 {
+    background: url(../img/index/bg_1.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.page2 {
+    background: url(../img/index/bg_2.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.page3 {
+    background: url(../img/index/bg_3.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.page4 {
+    background: url(../img/index/bg_4.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+.page5 {
+    background: url(../img/index/bg_5.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+#navBar {
+    z-index: 3;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 5%;
+    text-align: center;
+}
+#navBar .active {
+    background: url(../img/index/index_nav_icon.png) 50% 50% no-repeat;
+    background-size: cover;
+    width: 1rem;
+    height: 1rem;
+    line-height: 1rem;
+    margin: 0px 0.5rem 0 0;
+}
+#navBar li {
+    display: inline-block;
+    cursor: pointer;
+    margin: 0.1rem 0.5rem 0.1rem 0;
+    transition: all .2s ease;
+    border-radius: 50%;
+    line-height: 1rem;
+    text-align: center;
+    width: 0.8rem;
+    height: 0.8rem;
+    background: rgba(255,255,255,0.6);
+}
+.contain img{
+    display: block;
+    position: absolute;
+    height: auto;
+}
+.bg-1-1{
+    width: 32%;
+    right: 1%;
+    bottom: 28.5%;
+}
+.bg-1-2{
+    width: 26.5%;
+    right: 24%;
+    bottom: 19%;
+}
+.bg-2-1{
+    width: 21.5%;
+    right: 15%;
+    bottom: 10.5%;
+}
+/*因手机浏览器占据顶部和底部问题，整体换算之后下移*/
+.bg-3-1{
+    width: 38%;
+    left: 16%;
+    top: 25%;/*top: 21.5%;*/
+}
+.bg-3-2{
+    width: 29%;
+    left: 12%;
+    top: 48%;/*top: 41.6%;*/
+}
+.bg-3-3{
+    width: 20%;
+    right: 10%;
+    bottom: 20%;/*bottom: 25%;*/
+}
+
+.bg-4-1{
+    width: 33.6%;
+    left: 5%;
+    top: 29%;/*top: 23.7%;*/
+}
+.bg-4-2{
+    width: 25.6%;
+    left: 37.5%;
+    top: 35%;/*top: 30%;*/
+}
+.bg-4-3{
+    width: 38.5%;
+    right: 2.5%;
+    bottom: 18%;/*bottom: 22.6%;*/
+}
+
+.bg-5-1{
+    width: 30.5%;
+    right: 7%;
+    top: 29%;
+    /*top: 24%;*/
+}
+.bg-5-2{
+    width: 36%;
+    left: 6.9%;
+    top: 37.3%;
+    /*top: 32.3%;*/
+}
+.bg-5-3{
+    width: 31%;
+    right: 8.4%;
+    bottom: 17.4%;
+    /*bottom: 22.4%;*/
+}
+
+@-webkit-keyframes slideInLeft {
+  from {
+    -webkit-transform: translate3d(-400%, 0, 0);
+    transform: translate3d(-400%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    -webkit-transform: translate3d(-400%, 0, 0);
+    transform: translate3d(-400%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.slideInLeft {
+  -webkit-animation: slideInLeft 1s ease 0 1 normal;
+  animation: slideInLeft 1s ease 0 1 normal;
+}

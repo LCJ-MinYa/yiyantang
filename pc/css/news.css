@@ -1,0 +1,298 @@
+@charset 'utf-8';
+#leftNav{
+	background: #1564a5;
+}
+#leftNav ul li.active{
+    background: #156caf;
+}
+#leftNav ul li{
+	border-top: 1px solid #1576b8;
+}
+.last-border{
+    border-bottom: 1px solid #1576b8;
+}
+
+html,body{
+	height: 100%;
+}
+#newsPage{
+	width: 100%;
+	height: 100%;
+}
+.news-box{
+	margin-left: 15%;
+	height: 100%;
+	overflow: hidden;
+}
+.company-news{
+	position: relative;
+	width: 100%;
+	height: 50%;
+	background: url(../img/company_news_bg.jpg) 50% 50% no-repeat;
+	background-size: cover;
+	-ms-behavior: url(css/backgroundsize.min.htc);
+	behavior: url(css/backgroundsize.min.htc);
+}
+.industry-news{
+	background: url(../img/industry_news_bg.jpg) 50% 50% no-repeat;
+	background-size: cover;
+	-ms-behavior: url(css/backgroundsize.min.htc);
+	behavior: url(css/backgroundsize.min.htc);
+}
+.text-bg-box{
+	margin: 0 5%;
+	width: 20%;
+	height: 100%;
+	background: url(../img/company_news_text.png) 50% 50% no-repeat;
+	background-size: 100% auto;
+	-ms-behavior: url(css/backgroundsize.min.htc);
+	behavior: url(css/backgroundsize.min.htc);
+	text-align: center;
+	position: relative;
+	float: left;
+}
+.text-box{
+	width: 100%;
+	overflow: hidden;
+	position: absolute;
+	top: 50%;
+	margin-top: -65px;
+}
+.text-box span{
+	display: block;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	font-size: 42px;
+	font-weight: bold;
+	letter-spacing: 5px;
+	color: #fff;
+}
+.text-box a{
+	display: inline-block;
+	margin-top: 10px;
+	height: 16px;
+	line-height: 16px;
+	font-size: 14px;
+	padding: 2px 5px;
+	border: 1px solid #fff;
+	color: #fff;
+}
+.text-detail-box{
+	width: 25%;
+	height: 100%;
+	color: #333;
+	position: relative;
+	float: left;
+}
+.detail-box{
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	top: 50%;
+	margin-top: -60px;
+	color: #333;
+}
+.detail-box h1{
+	font-size: 18px;
+	font-weight: bold;
+	height: 30px;
+	line-height: 30px;
+}
+.detail-box h2{
+	font-size: 16px;
+	height: 30px;
+	line-height: 30px;
+}
+.detail-box p{
+	font-size: 14px;
+	height: 60px;
+	overflow: hidden;
+}
+.detail-box span{
+	display: block;
+	text-align: right;
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+}
+.detail-box span a{
+	display: inline-block;
+	font-size: 12px;
+	height: 20px;
+	line-height: 20px;
+	padding: 2px 5px;
+	color: #e1000e;
+	border: 1px solid #e1000e;
+}
+
+.industry-news .text-bg-box{
+	background: url(../img/industry_news_text.png) 50% 50% no-repeat;
+	background-size: 100% auto;
+	-ms-behavior: url(css/backgroundsize.min.htc);
+	behavior: url(css/backgroundsize.min.htc);
+	float: right;
+}
+.industry-news .text-detail-box{
+	float: right;
+}
+
+/*----------------------company------------------------*/
+.company-box{
+	height: auto;
+}
+.company-bg{
+	position: relative;
+	width: 100%;
+	height: 500px;
+	background: url(../img/company_1.jpg) 50% 50% no-repeat;
+	background-size: cover;
+	-ms-behavior: url(css/backgroundsize.min.htc);
+	behavior: url(css/backgroundsize.min.htc);
+}
+.company-bg i{
+	position: absolute;
+	right: 10%;
+	bottom: -119px;
+	display: block;
+	width: 204px;
+	height: 238px;
+	background: url(../img/company_2.png) 50% 50% no-repeat;
+	text-align: center;
+}
+.company-bg i span{
+	display: block;
+	height: 100px;
+	font-size: 36px;
+	font-weight: bold;
+	color: #fff;
+	letter-spacing: 2px;
+	margin: 69px 0;
+}
+.company-item-1{
+	margin: 150px 50px;
+}
+.company-item-1 h1 span{
+	display: block;
+	height: 50px;
+	line-height: 50px;
+	font-size: 24px;
+	color: #333;
+	font-weight: bold;
+}
+.company-item-1 h1 i{
+	display: block;
+	float: left;
+	width: 26px;
+	height: 26px;
+	background: #006cc8;
+	margin: 12px 20px 12px 0;
+}
+.company-item-1 ul{
+	width: 100%;
+	overflow: hidden;
+	margin-bottom: 100px;
+}
+.company-item-1 ul li{
+	width: 30%;
+	margin-right: 5%;
+	float: left;
+}
+.company-item-1 ul li img{
+	display: block;
+	width: 100%;
+}
+.company-text-box{
+	overflow: hidden;
+	background: #1564a5;
+}
+.company-text-box p{
+	padding-left: 10px;
+	font-size: 16px;
+	color: #fff;
+	line-height: 24px;
+}
+.company-text-btn{
+	width: 100%;
+	margin: 40px 0 20px 0;
+	overflow: hidden;
+	text-align: center;
+	font-size: 18px;
+}
+.company-text-box span{
+	display: inline-block;
+	text-align: center;
+	border: 1px solid #fff;
+	padding: 4px 8px;
+	color: #fff;
+}
+.company-text-last{
+	margin-right: 0%!important;
+}
+.news-center{
+	width: 60%;
+	line-height: 30px;
+	overflow: hidden;
+}
+.news-center span{
+	display: block;
+	font-size: 16px;
+}
+.left-text{
+	float: left;
+}
+.right-text{
+	float: right;
+}
+
+.industry-bg i{
+	background: url(../img/industry_1.png) 50% 50% no-repeat;
+}
+.industry-item-1 i{
+	background: #fec502!important;
+}
+.industry-text-box{
+	background: #fec502!important;
+}
+.industry-text-box p{
+	color: #3e3a39;
+}
+.industry-text-box span{
+	color: #3e3a39;
+	border: 1px solid #000;
+}
+.news-detail{
+	margin: 150px 50px;
+}
+.news-detail h1{
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 50px;
+}
+.news-detail i{
+	display: inline-block;
+	width: 26px;
+	height: 26px;
+	vertical-align: text-bottom;
+	margin-right: 10px;
+	margin-bottom: 1px;
+	background: #fec502;
+}
+.news-detail img{
+	width: 100%;
+	height: auto;
+	margin-bottom: 50px;
+}
+.news-detail p{
+	text-indent: 25px;
+	font-size: 14px;
+	line-height: 200%;
+}
+.news-detail span{
+	display: block;
+	width: 100%;
+	text-align: right;
+	font-size: 14px;
+	line-height: 50px;
+}

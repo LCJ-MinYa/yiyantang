@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>益盐堂首页</title>
+	<meta name="format-detection" content="telephone=no, email=no"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<script type="text/javascript" src="js/fullPage.js"></script>
+</head>
+<body>
+	<header id="topNav">
+		<a><img class="nav-img" src="img/common/logo.png"></a>
+		<a href="index.html" class="active"><i class="index-icon"></i><span>首页</span></a>
+		<a href="about.html"><i class="about-icon"></i><span>关于益盐堂</span></a>
+		<a href="product.html"><i class="product-icon"></i><span>品牌与产品</span></a>
+		<a href="news.html"><i class="news-icon"></i><span>新闻中心</span></a>
+		<a href="buy.html"><i class="buy-icon"></i><span>购买产品</span></a>
+	</header>
+
+	<div id="indexPage">
+		<div class="page page1 current">
+			<div class="contain">
+				<img class="bg-1-1 slideInLeft" src="img/index/bg1_1.png">
+				<img class="bg-1-2 slideInLeft" src="img/index/bg1_2.png">
+			</div>
+		</div>
+		<div class="page page2">
+			<div class="contain">
+				<img class="bg-2-1 slideInLeft" src="img/index/bg2_1.png">
+			</div>
+		</div>
+		<div class="page page3">
+			<div class="contain">
+				<img class="bg-3-1 slideInLeft" src="img/index/bg3_1.png">
+				<img class="bg-3-2 slideInLeft" src="img/index/bg3_2.png">
+				<img class="bg-3-3 slideInLeft" src="img/index/bg3_3.png">
+			</div>
+		</div>
+		<div class="page page4">
+			<div class="contain">
+				<img class="bg-4-1 slideInLeft" src="img/index/bg4_1.png">
+				<img class="bg-4-2 slideInLeft" src="img/index/bg4_2.png">
+				<img class="bg-4-3 slideInLeft" src="img/index/bg4_3.png">
+			</div>
+		</div>
+		<div class="page page5">
+			<div class="contain">
+				<img class="bg-5-1 slideInLeft" src="img/index/bg5_1.png">
+				<img class="bg-5-2 slideInLeft" src="img/index/bg5_2.png">
+				<img class="bg-5-3 slideInLeft" src="img/index/bg5_3.png">
+			</div>
+		</div>
+	</div>
+	<ul id="navBar">
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ul>
+
+	<footer id="baseFooter" class="slideInBottom">
+		<div class="go-share-box">
+			<a href="#" target="_blank" class="weibo"><i></i>益盐堂官方微博</a>
+			<a href="#" target="_blank" class="weixin"><i></i>益盐堂官方微信</a>
+		</div>
+		<p>股票代码：002539   客户服务热线：400-998 6055</p>
+		<p>网址：http//www.jkyyt.com   公司地址：成都市青羊大道优诺国际1204</p>
+		<p>益盐堂（应城）健康盐制盐有限公司</p>
+		<p>  CopyRight 2006-2017，All Rights reserved 蜀ICP备14245125号</p>
+	</footer>
+
+</body>
+</html>
+<script type="text/javascript">
+(function() {
+
+	/*------ 执行方法 ------*/
+	window.onload = function(){
+		var runPage = new FullPage({
+			id: 'indexPage',
+			slideTime: 500,
+			effect: {
+				transform: {
+					translate: 'X',
+					scale: [1, 1],
+					rotate: [0, 0]
+				},
+				opacity: [0, 1]
+			},
+			mode: 'wheel,touch,nav:navBar',
+			easing: 'ease',
+			callback  : function(index,thisPage){
+				console.log(index, thisPage)
+				if(index == 4){
+					document.getElementById('baseFooter').style.display = 'block';
+				}else{
+					document.getElementById('baseFooter').style.display = 'none';
+				}
+			}
+		});
+	}
+}());
+</script>

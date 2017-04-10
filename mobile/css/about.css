@@ -1,0 +1,381 @@
+@charset 'utf-8';
+header#topNav{
+	background: #f66500;
+}
+header#topNav .active{
+	background: #ca5509;
+}
+html,body{
+	width: 100%;
+}
+#aboutPage{
+	margin-top: 4.25rem;
+	width: 100%;
+	background: url(../img/about/about_bg.jpg) 50% 50% no-repeat;
+	background-size: cover;
+}
+.about-content{
+	position: relative;
+	margin-top: -0.7rem;
+	margin-bottom: -0.7rem;
+}
+.about-top{
+	width: 100%;
+	position: relative;
+	display: box;
+	display: -webkit-box;
+	display:-moz-box;
+}
+.about-top a{
+	display: block;
+ 	-moz-box-flex:1;
+    -webkit-box-flex:1;
+    box-flex:1;
+    padding: 0 0.1rem;
+}
+.about-top a:nth-child(1){
+	padding-left: 0;
+}
+.about-top a:last-child{
+	padding-right: 0;
+}
+.about-top a img{
+	display: block;
+	width: 100%;
+	height: auto;
+	position: relative;
+	bottom: -0.7rem;
+}
+
+.about-bottom a:nth-child(2),.about-bottom a:nth-child(3){
+ 	-moz-box-flex:2;
+    -webkit-box-flex:2;
+    box-flex:2;
+}
+.about-bottom a img{
+	width: 100%;
+	height: auto;
+	position: relative;
+	top: -0.7rem;
+}
+
+/*-----------------------------about us----------------------------*/
+#aboutUsPage{
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+
+.about-us-bg{
+	position: relative;
+	width: 100%;
+	height: 12.5rem;
+	background: url(../img/about/about_us_bg.jpg) no-repeat 50% 50% / cover;
+	border-bottom: 1px solid #f66500;
+}
+
+.about-us-content{
+	width: 100%;
+	padding: 1.5rem 5%;
+	overflow: hidden;
+}
+.about-us-content img{
+	width: 100%;
+	height: auto;
+}
+.about-us-content h1{
+	margin: 2rem 0 1rem 0;
+	overflow: hidden;
+	border-left: 0.2rem solid #f66500;
+	font-size: 0.7rem;
+}
+.about-us-content h1 p{
+	padding-left: 0.3rem;
+	color: #333;
+}
+.text-title{
+	font-weight: bold;
+}
+.text-title-detail{
+	font-size: 0.65rem;
+}
+.about-us-content h2{
+	font-size: 0.6rem;
+	color: #333;
+	font-weight: bold;
+	padding-top: 1rem;
+	line-height: 1.5rem;
+}
+.about-us-content > p{
+	font-size: 0.55rem;
+	color: #333;
+	text-indent: 1rem;
+	line-height: 1.5rem;
+}
+.about-us-footer{
+	position: relative;
+	width: 100%;
+	height: 2.65rem;
+	background: url(../img/about/about_us_footer.jpg) no-repeat 50% 50% / cover;
+	border-top: 1px solid #f66500;
+}
+
+/*-----------------------------about histroy----------------------------*/
+.about-histroy-bg{
+	background: url(../img/about/about_histroy_bg.jpg) no-repeat 50% 50% / cover;
+}
+.about-us-content ul{
+	border-left: 1px solid #ff6650;
+}
+.about-us-content ul li{
+	position: relative;
+	font-size: 0.6rem;
+	margin-left: -0.175rem;
+}
+.about-us-content ul li span{
+	font-size: 0.6rem;
+	padding-left: 1rem;
+	display: block;
+}
+.about-us-content ul li span:last-child{
+	line-height: 1rem;
+	padding-top: 0.4rem;
+	padding-bottom: 0.4rem;
+}
+.histroy-icon{
+	display: block;
+	float: left;
+	width: 0.325rem;
+	height: 0.375rem;
+	margin-top:2px;
+	background: url(../img/about/histroy_icon.png) no-repeat 50% 50% / cover;
+}
+.time-bold{
+	font-size: 0.7rem!important;
+	color: #333;
+	font-weight: bold;
+}
+
+/*-----------------------------about honor----------------------------*/
+.about-honor-bg{
+	background: url(../img/about/about_honor_bg.jpg) no-repeat 50% 50% / cover;
+}
+.about-honor-box{
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.about-honor-item1{
+	width: 48%;
+	float: left;
+	padding: 0.5rem;
+	border: 1px solid #d9dad5;
+	text-align: center;
+	font-size: 0.4rem;
+	margin-bottom: 0.5rem;
+}
+.about-honor-item1 img{
+	max-height: 4rem;
+	width: auto;
+	margin: 0 auto;
+	display: block;
+}
+.about-honor-item1 span{
+	display: block;
+	height: 1.5rem;
+	line-height: 1.5rem;
+}
+.about-honor-item2{
+	width: 50%;
+	margin-left: 2%;
+}
+.honor-item-text{
+	line-height: 0.75rem!important;
+}
+
+/*-----------------------------about contact----------------------------*/
+.about-contact-bg{
+	background: url(../img/about/about_contact_bg.jpg) no-repeat 50% 50% / cover;
+}
+.about-contact-content{
+	padding: 3rem 5%;
+}
+.about-contact-content .text-title{
+	font-size: 0.75rem;
+}
+.about-contact-content .text-title-detail{
+	line-height: 1rem;
+}
+.about-contact-content .top-text{
+	padding-top: 0.5rem;
+}
+
+/*-----------------------------about advantage----------------------------*/
+.about-advantage-bg{
+	background: url(../img/about/about_advantage_bg.jpg) no-repeat 50% 50% / cover;
+}
+.advantage-item-1{
+	width: 100%;
+	overflow: hidden;
+}
+.advantage-item-1 span{
+	display: block;
+	font-size: 0.6rem;
+	font-weight: bold;
+	color: #cba736;
+	padding-left: 1rem;
+}
+.advantage-item-1 p{
+	color: #333;
+	font-size: 0.5rem;
+	padding-left: 1rem;
+	margin: 0.5rem 0 1rem 0;
+}
+.advantage-item-1 i{
+	display: block;
+	position: absolute;
+	margin: 0.1rem 0 0 0.34rem;
+	width: 0.325rem;
+	height: 0.375rem;
+	background: url(../img/about/advantage_1.png) no-repeat 50% 50% / cover;
+}
+.advantage-item-1 i b{
+	display: block;
+	height: 20rem;
+	width: 1px;
+	background: #cba736;
+	margin-left: 0.165rem;
+}
+.advantage-item-1 i em{
+	display: block;
+	margin-left: 0.165rem;
+	height: 1px;
+	width: 1.5rem;
+	background: #cba736;
+}
+
+
+.advantage-item-2 span{
+	padding-left: 2rem;
+	color: #d76f30;
+}
+.advantage-item-2 p{
+	padding-left: 2rem;
+}
+.advantage-item-2 i{
+	margin: 0.1rem 0 0 1.34rem;
+	background: url(../img/about/advantage_2.png) no-repeat 50% 50% / cover;
+}
+.advantage-item-2 i b{
+	height: 12rem;
+	background: #d76f30;
+}
+.advantage-item-2 i em{
+	margin-left: 0.165rem;
+	width: 2.5rem;
+	background: #d76f30;
+}
+
+
+
+
+.advantage-item-3 span{
+	padding-left: 4rem;
+	color: #bc2d25;
+}
+.advantage-item-3 p{
+	padding-left: 4rem;
+}
+.advantage-item-3 i{
+	margin: 0.1rem 0 0 3.34rem;
+	background: url(../img/about/advantage_3.png) no-repeat 50% 50% / cover;
+}
+.advantage-item-3 i b{
+	height: 5.2rem;
+	background: #bc2d25;
+}
+.advantage-item-3 i em{
+	margin-left: 0.165rem;
+	width: 2.5rem;
+	background: #bc2d25;
+}
+
+
+
+.advantage-yuanhuan{
+	width: 10.3rem;
+	height: 10.3rem;
+	background: url(../img/about/about_advantage_1.jpg) no-repeat 50% 50% / cover;
+}
+.advantage-item-4 span{
+	padding-left: 3rem;
+	color: #99d185;
+}
+.advantage-item-4 p{
+	padding-left: 3rem;
+}
+.advantage-item-4 i{
+	margin: 0.1rem 0 0 2.34rem;
+	background: url(../img/about/advantage_4.png) no-repeat 50% 50% / cover;
+}
+.advantage-item-4 i b{
+	height: 5.2rem;
+	background: #99d185;
+	margin-left: 6.5rem;
+	margin-top: -5.2rem;
+}
+.advantage-item-4 i em{
+	margin-left: 4rem;
+	width: 2.5rem;
+	background: #99d185;
+}
+
+
+.advantage-item-5 span{
+	padding-left: 2rem;
+	color: #d9c736;
+}
+.advantage-item-5 p{
+	padding-left: 2rem;
+}
+.advantage-item-5 i{
+	margin: 0.1rem 0 0 1.34rem;
+	background: url(../img/about/advantage_5.png) no-repeat 50% 50% / cover;
+}
+.advantage-item-5 i b{
+	height: 7.5rem;
+	margin-top: -7.5rem;
+	background: #d9c736;
+}
+.advantage-item-5 i em{
+	margin-left: 0.165rem;
+	width: 4rem;
+	background: #d9c736;
+	position: relative;
+	top: -7.5rem;
+}
+
+
+.advantage-item-6 span{
+	padding-left: 1rem;
+	color: #a8be31;
+}
+.advantage-item-6 p{
+	padding-left: 1rem;
+}
+.advantage-item-6 i{
+	margin: 0.1rem 0 0 0.34rem;
+	background: url(../img/about/advantage_6.png) no-repeat 50% 50% / cover;
+}
+.advantage-item-6 i b{
+	height: 14rem;
+	margin-top: -14rem;
+	background: #a8be31;
+}
+.advantage-item-6 i em{
+	margin-left: 0.165rem;
+	width: 2rem;
+	background: #a8be31;
+	position: relative;
+	top: -14rem;
+}

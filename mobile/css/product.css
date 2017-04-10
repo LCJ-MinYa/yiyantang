@@ -1,0 +1,151 @@
+@charset 'utf-8';
+header#topNav{
+	background: #a57415;
+}
+header#topNav .active{
+	background: #8a621c;
+}
+html,body{
+	width: 100%;
+}
+.product-html, .product-body{
+	height: 100%;
+}
+
+#productPage{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background: url(../img/product/product_bg.jpg) no-repeat 50% 50% / cover;
+}
+.product-item-box{
+	position: absolute;
+	width: 100%;
+	height: 50%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.product-item-box a{
+	position: relative;
+	display: block;
+	width: 50%;
+	height: 100%;
+	float: left;
+	background: #14c5ca;
+}
+.product-item-box a:nth-child(2){
+	background: #cacb17;
+}
+.product-item-box a img{
+	display: block;
+	width: 2.325rem;
+	height: 5.45rem;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -1.1625rem;
+	margin-top: -2.725rem;
+}
+.product-item-box a:nth-child(2) img{
+	display: block;
+	width: 3.125rem;
+	height: 3.575rem;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -1.5625rem;
+	margin-top: -1.7875rem;
+}
+.product-mask{
+	right: 50%;
+	margin-right: -1.25rem;
+	top: -0.75rem;
+	background: rgba(165,116,21,.9);
+}
+.product-mask:after{
+	border-bottom: 0.75rem solid rgba(165,116,21,.9);
+}
+.product-mask:before{
+	border-top: 0.75rem solid rgba(165,116,21,.9);
+}
+.product-mask span{
+	letter-spacing: 0;
+	font-size: 0.5rem;
+}
+
+/*-----------------------------yiyantang----------------------------*/
+#yiyantangPage{
+	position: relative;
+	width: 100%;
+	margin-top: 4.25rem;
+	overflow: hidden;
+}
+#yiyantangPage > img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.yiyantang-1{
+	text-align: center;
+	margin: 0.6rem auto;
+	font-size: 0.75rem;
+	font-weight: bold;
+	color: #ac0811;
+}
+.yiyantang-1 i{
+	display: inline-block;
+	width: 1.075rem;
+	height: 2.5rem;
+	background: url(../img/product/yiyantang_6.jpg) no-repeat 50% 50% / cover;
+	vertical-align: middle;
+	margin-right: 0.5rem;
+}
+
+.yiyantang-2{
+	margin: 0.6rem 10%;
+	overflow: hidden;
+}
+.yiyantang-2 h1{
+	font-size: 0.75rem;
+	font-weight: bold;
+	color: #ac0811;
+	margin-bottom: 0.5rem;
+}
+.yiyantang-2 span{
+	display: block;
+	width: 50%;
+	overflow: hidden;
+	font-size: 0.6rem;
+	color: #333;
+	line-height: 1rem;
+	float: left;
+}
+.yiyantang-2 span i{
+	display: inline-block;
+	width: 0.25rem;
+	height: 0.25rem;
+	background: url(../img/product/yiyantang_2_icon.png) no-repeat 50% 50% / cover;
+	vertical-align: middle;
+	margin-bottom: 0.1rem;
+	margin-right: 0.2rem;
+}
+
+.green-saltern-page .yiyantang-1{
+	color: #00843c;
+}
+.green-saltern-page h1{
+	color: #00843c;
+}
+.green-saltern-page .yiyantang-1 i{
+	background: url(../img/product/green_3.jpg) no-repeat 50% 50% / cover;
+	width: 1.625rem;
+	height: 1.875rem;
+}
+.product-box-icon{
+	right: 50%;
+	margin-right: -1.5625rem;
+	top: -1.825rem;
+	background: url(../img/product/product_icon.png) no-repeat 50% 50% / cover;
+}
